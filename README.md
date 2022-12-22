@@ -1,15 +1,3 @@
-<center><h1>0x02. AirBnB clone - MySQL</h1></center>
-<h3>Background Context</h3>
-<p>Environment variables will be your best friend for this project!
-
-<ol>
-<li>HBNB_ENV: running environment. It can be “dev” or “test” for the moment (“production” soon!)</li>
-<li>HBNB_MYSQL_USER: the username of your MySQL</li>
-<li>HBNB_MYSQL_PWD: the password of your MySQL</li>
-<li>HBNB_MYSQL_HOST: the hostname of your MySQL</li>
-<li>HBNB_MYSQL_DB: the database name of your MySQL</li>
-<li>HBNB_TYPE_STORAGE: the type of storage used. It can be “file” (using FileStorage) or db (using DBStorage)</li>
-</p>
 <center> <h1>HBNB - The Console</h1> </center>
 
 This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
@@ -151,4 +139,6 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 (hbnb) User.all()
 (hbnb) ["[User] (98bea5de-9cb0-4d78-8a9d-c4de03521c30) {'updated_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134362), 'name': 'Fred the Frog', 'age': 9, 'id': '98bea5de-9cb0-4d78-8a9d-c4de03521c30', 'created_at': datetime.datetime(2020, 2, 19, 21, 47, 29, 134343)}"]
 ```
-<br>
+<h3>Authors</h3>
+
+Marcus Ruth marcusruth86@gmail.com And Ernest Aiji ernestaiji1@gmail.com
